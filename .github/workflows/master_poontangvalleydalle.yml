@@ -53,6 +53,6 @@ jobs:
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1BEC23B8BA914B748329A117D0F3555F }}
           package: .
 
-      - name: Register Discord commands
-        run: |
-          node registerCommands.js
+      # - name: Register Discord commands
+      #   run: |
+      #     node registerCommands.js
