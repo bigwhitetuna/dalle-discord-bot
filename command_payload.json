@@ -1,0 +1,12 @@
+{
+  "name": "dalle",
+  "description": "Generate an image based on an inputted text string.",
+  "options": [
+    {
+      "name": "prompt",
+      "description": "The prompt used to generate the image.",
+      "type": 3,
+      "required": true
+    }
+  ]
+}
