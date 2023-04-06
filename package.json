@@ -4,7 +4,7 @@
   "main": "dalle.js",
   "description": "discord bot that integrates with openai api for dalle",
   "scripts": {
-    "start": "node dalle.js"
+    "start": "node src/dalle.js"
   },
   "dependencies": {
     "@discordjs/builders": "^1.5.0",
